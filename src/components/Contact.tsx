@@ -207,12 +207,13 @@ export default function Contact() {
         {/* Footer bar */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img
-              src="/670522956_18079446497156704_4402827622326465033_n__1_-removebg-preview.png"
-              alt="Logo"
-              className="w-10 h-10 object-contain"
-              style={{ filter: 'brightness(0) invert(1)' }}
-            />
+            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center flex-shrink-0">
+              <img
+                src="/670522956_18079446497156704_4402827622326465033_n__1_-removebg-preview.png"
+                alt="Logo"
+                className="w-8 h-8 object-contain"
+              />
+            </div>
             <div>
               <div className="text-white font-black text-sm tracking-tight">Taşbulak Futbol Akademisi</div>
               <div className="text-gray-500 text-xs">Kartal, İstanbul</div>

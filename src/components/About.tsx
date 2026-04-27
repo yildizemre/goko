@@ -130,12 +130,11 @@ export default function About() {
 
         {/* Coach highlight — dark bg: logo needs white filter */}
         <div className="mt-20 bg-gradient-to-br from-navy-950 to-navy-800 rounded-3xl p-6 sm:p-8 lg:p-12 flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
-          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-white/10 border-2 border-white/20 flex items-center justify-center flex-shrink-0">
+          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-white flex items-center justify-center flex-shrink-0 shadow-lg">
             <img
               src="/670522956_18079446497156704_4402827622326465033_n__1_-removebg-preview.png"
               alt="Göktuğ Taşbulak"
               className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
-              style={{ filter: 'brightness(0) invert(1)' }}
             />
           </div>
           <div className="text-center sm:text-left">

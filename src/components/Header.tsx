@@ -30,12 +30,13 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <img
-              src="/670522956_18079446497156704_4402827622326465033_n__1_-removebg-preview.png"
-              alt="Taşbulak Futbol Akademisi Logo"
-              className="h-14 w-14 object-contain"
-              style={{ filter: 'brightness(0) invert(1) drop-shadow(0 0 6px rgba(255,255,255,0.5))' }}
-            />
+            <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center shadow-md flex-shrink-0">
+              <img
+                src="/670522956_18079446497156704_4402827622326465033_n__1_-removebg-preview.png"
+                alt="Taşbulak Futbol Akademisi Logo"
+                className="w-12 h-12 object-contain"
+              />
+            </div>
             <div className="flex flex-col leading-none">
               <span className="text-white font-black text-base tracking-tight uppercase">Taşbulak</span>
               <span className="text-crimson-400 font-semibold text-xs tracking-widest uppercase">Futbol Akademisi</span>
